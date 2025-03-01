@@ -1,7 +1,8 @@
 import streamlit as st
 from chain.RAGDriver import RAGDriver
 
-#Create an ingenestion pipeline that uses an observer to update the vector database, it runs on a schedule and when it identifies a new document it adds it to the database
+#TODO:Edit the ingenestion pipeline to use an observer to update the vector database, it runs on a schedule and when it identifies a new document it adds it to the database
+
 st.title("RAG-Powered Knowledge Assistant")
 st.write("Retrieve insights from Confluence documents")
 
